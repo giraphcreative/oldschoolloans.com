@@ -171,9 +171,9 @@ header {
 	text-align: center;
 
 	h2 {
-		font-size: 2em;
+		font-size: 1.3em;
 		color: $brown;
-		@include respond-to( 768px ) { font-size: 2.4em; }
+		@include respond-to( 768px ) { font-size: 1.5em; }
 
 		span {
 			color: $terra;
@@ -190,9 +190,11 @@ header {
 .fine-print {
 	@include font;
 	padding: 20px 0 0;
-	font-size: .85em;
-	line-height: 1.3em;
+	font-size: 12px;
+	line-height: 1.4em;
 	text-align: left;
+	color: $brown;
+	opacity: .7;
 
 	img {
 		float: right;
