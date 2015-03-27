@@ -69,9 +69,6 @@ body {
   font-size: 25px;
   line-height: 1.5em;
   color: #6C421B; }
-  @media only screen and (min-width: 1024px) {
-    body {
-      font-size: 100%; } }
 
 a {
   color: #831528;
